@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Coverage / pytest
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Service account credentials (do NOT commit secrets to a public repo)
+google-sheets-api.json
+submission-etl-pipeline.zip
+
+# Claude
+.claude/
